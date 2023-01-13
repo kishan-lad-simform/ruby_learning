@@ -1,0 +1,11 @@
+string_array = ["Red", "White", "Blue", "Green", "Cyan", "Purople"]
+puts "**#{string_array}**"
+puts "Size of array is #{string_array.size} and it's count is #{string_array.count}."
+puts "First element of array is \"#{string_array.first}\" and last element of array is \"#{string_array.last}\""
+puts "Commbination-2 of element #{string_array.combination(2).to_a} "
+puts "Check Blue color is in array or not(true/false) : #{string_array.include?("Blue")}"
+puts "Checking index of white color #{string_array.index("White")}"
+puts "Adding Orange color in array #{string_array.push("Orange")}"
+puts "Reverse of array is #{string_array.reverse}"
+puts "Choosing 3 random value from array #{string_array.sample(3)}"
+puts "Sorting in a#{string_array.sort}"
